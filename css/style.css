@@ -125,7 +125,7 @@ a{
 @media screen and (max-width: 1000px){
   .signbody{
     width: 70%;
-    height: 60%;
+    height: 50%;
     flex-grow: 0;
 
   }
