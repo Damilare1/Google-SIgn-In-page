@@ -1,6 +1,6 @@
 body, html{
   width:100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction:column;
   align-items: center;
@@ -78,13 +78,14 @@ a{
 
 .signbody{
   font-family: roboto, arial;
-  background-color: white;
   border-radius: 2%;
   box-shadow: 1px .5px 1.5px 1px;
   height:80%;
   width:35%;
   margin-top: 40px;
 }
+
+
 .signbody ul:last-of-type{
   margin:0;
 }
@@ -119,4 +120,17 @@ a{
 
 .content_2 li:last-of-type{
   margin-right: 0;
+}
+
+@media screen and (max-width: 1000px){
+  .signbody{
+    width: 70%;
+    height: 60%;
+    flex-grow: 0;
+
+  }
+
+  .content_2 {
+    width: 70%;
+  }
 }
