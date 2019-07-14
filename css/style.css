@@ -142,4 +142,7 @@ a{
     flex-grow: 0;
 
   }
+  .content_2 {
+    width: 70%;
+  }
 }
