@@ -122,7 +122,7 @@ a{
   margin-right: 0;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 600px){
   .signbody{
     width: 70%;
     height: 50%;
@@ -132,5 +132,14 @@ a{
 
   .content_2 {
     width: 70%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+  .signbody{
+    width: 70%;
+    height: 90%;
+    flex-grow: 0;
+
   }
 }
